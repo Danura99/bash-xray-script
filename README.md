@@ -48,7 +48,7 @@ https://github.com/2dust/v2rayNG)
 
 * Http Port =  80
 
-* Xtls port = 443
+* Xtls port = 444
 
 ## :book: Unistallation (Remove xray-core and all modified config files from the server) *will not remove BBR
 
