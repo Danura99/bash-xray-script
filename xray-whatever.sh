@@ -19,7 +19,7 @@ cat << EOF > /usr/local/etc/xray/config.json
   },
   "inbounds": [
     {
-      "port": 443,
+      "port": 444,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -32,7 +32,7 @@ cat << EOF > /usr/local/etc/xray/config.json
         "decryption": "none",
         "fallbacks": [
           {
-            "dest": "www.google.lk:443"
+            "dest": "www.google.lk:444"
           },
           {
             "alpn": "h2",
