@@ -89,7 +89,7 @@ cat << EOF > /usr/local/etc/xray/config1.json
 {
     "inbounds": [
 	{
-            "port": 443,
+            "port": 444,
             "protocol": "vless",
 			"tag":"XTLS",
             "settings": {
